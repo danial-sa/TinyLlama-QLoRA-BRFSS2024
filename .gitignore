@@ -1,0 +1,56 @@
+# Data survei dan turunannya
+data/
+dataset/
+datasets/
+LLCP2024*
+*.xpt
+*.XPT
+*.XPT_*
+*.sas7bdat
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.xlsx
+
+# Output eksperimen dan bobot model
+output/
+outputs/
+results/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.onnx
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Kredensial / konfigurasi lokal
+.env
+.env.*
+!.env.example
+.secrets/
+credentials.json
+*service-account*.json
+*.pem
+*.key
+
+# Python, notebook, editor
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

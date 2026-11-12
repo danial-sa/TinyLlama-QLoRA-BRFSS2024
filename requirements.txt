@@ -1,0 +1,13 @@
+# Dependensi utama untuk dijalankan pada Google Colab dengan GPU.
+# Sesuai batas versi pada sel pertama notebook asli.
+# PyTorch di Colab bergantung pada runtime dan CUDA; lihat docs/LINGKUNGAN.md.
+transformers>=4.52,<5
+peft>=0.16,<0.20
+accelerate>=1,<2
+bitsandbytes>=0.46
+imbalanced-learn>=0.13
+scikit-learn>=1.4
+pandas
+numpy
+matplotlib
+tqdm
